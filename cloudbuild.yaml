@@ -7,5 +7,4 @@ artifacts:
   images:
   - 'us-central1-docker.pkg.dev/$PROJECT_ID/ollama-repo/ollama-phi3'
 options:
-  logging: GCS_ONLY
-  logsBucket: 'gs://cloud-build-logs-yourname'
+  logging: CLOUD_LOGGING_ONLY
